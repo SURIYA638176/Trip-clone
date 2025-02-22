@@ -5,6 +5,7 @@
 body{
     font-family: "Poppins", serif;
     background-color: white;
+    cursor: pointer;
     
 }
 .navbar__logo img{
@@ -329,4 +330,25 @@ body{
        color: rgb(81, 223, 81);
     
     } 
+}
+
+/* animation */
+
+.container__header h1:hover{
+    transform: scale(0.5);
+    transition: 2s;
+}
+.container__header h1{
+    transition: 1s;
+}
+.container__sale img:hover{
+    transform: scale(0.5);
+    transition: 2s;
+}
+.container__sale img{
+    transition: 2s;
+}
+.container__border:hover{
+    border: solid black 2px;
+    transition: 1s;
 }
